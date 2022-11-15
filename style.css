@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    animation: T-H-Abir-BG-Color 2s linear infinite alternate-reverse;
+}
+
+@keyframes T-H-Abir-BG-Color {
+    0% {
+        background-color: rgb(28, 54, 170);
+        text-align: center;
+        font-size: 20%;
+    }
+
+
+
+    25% {
+        background-color: rgb(178, 219, 28);
+        align-items: center;
+        padding: auto;
+    }
+
+
+    50% {
+        background-color: aqua;
+        text-align: initial;
+    }
+
+
+
+    75% {
+        background-color: rgb(67, 245, 245)
+    }
+
+
+
+    100% {
+        background-color: blueviolet;
+        margin-top: 40vh;
+    }
+
+
+}
